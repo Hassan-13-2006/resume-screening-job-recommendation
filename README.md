@@ -1,4 +1,5 @@
 
+```markdown
 # 📄 Resume Screening & Job Recommendation System
 
 An AI-based Resume Screening and Job Recommendation System built using Python, Streamlit, and Natural Language Processing (NLP).
@@ -52,6 +53,7 @@ Final Match Score
 Job Recommendation
       ↓
 Resume Insights
+```
 
 ## 🤖 AI Matching Methodology
 
@@ -73,14 +75,15 @@ Cosine similarity is then used to measure the similarity between the resume and 
 
 The final score combines both methods:
 
-
+```text
 Final Score =
 (70% × Skill Score) +
 (30% × TF-IDF Text Similarity)
+```
 
 ## 📂 Project Structure
 
-
+```text
 Resume_Job_Description/
 │
 ├── app.py
@@ -104,7 +107,7 @@ Resume_Job_Description/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-
+```
 
 ## 📌 Main Modules
 
@@ -144,38 +147,49 @@ Generates resume strengths, missing skills, and improvement suggestions.
 
 ### 1. Clone the repository
 
+```bash
 git clone https://github.com/Hassan-13-2006/resume-screening-job-recommendation.git
-
+```
 
 ### 2. Open the project folder
 
+```bash
 cd resume-screening-job-recommendation
-
+```
 
 ### 3. Create a virtual environment
 
+```bash
 python -m venv venv
-
+```
 
 ### 4. Activate the virtual environment
 
 #### Windows
 
+```powershell
 venv\Scripts\activate
+```
 
 #### Linux/macOS
 
+```bash
 source venv/bin/activate
+```
 
 ### 5. Install dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
 ## ▶️ Run the Application
 
 Run:
 
+```bash
 streamlit run app.py
+```
 
 The application will open in your browser.
 
@@ -194,6 +208,7 @@ The application will open in your browser.
 
 ## 📊 Example Output
 
+```text
 Job: Frontend Developer
 
 Final AI Match: 56.33%
@@ -209,6 +224,7 @@ GitHub
 
 Missing Skills:
 React
+```
 
 The actual results depend on the resume uploaded by the user.
 
@@ -276,3 +292,4 @@ https://github.com/Hassan-13-2006
 ## 📜 License
 
 This project is developed for educational and academic purposes.
+```
