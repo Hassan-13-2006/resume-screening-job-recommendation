@@ -282,6 +282,16 @@ The project can be improved by adding:
 - Resume Screening
 - Job Recommendation
 
+## 🌐 Live Demo
+
+🚀 **Try the live application:**
+
+https://resume-screening-job-recommendation-xvqv4uepzzwtzrlecdc6cw.streamlit.app/
+
+💻 **GitHub Repository:**
+
+https://github.com/Hassan-13-2006/resume-screening-job-recommendation
+
 ## 👨‍💻 Author
 
 **Khan Mohd Hassan Mohd Saeed**
