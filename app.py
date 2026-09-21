@@ -293,10 +293,7 @@ if uploaded_file is not None:
 
             for index, job in enumerate(results):
 
-                st.markdown(
-                    '<div class="job-card">',
-                    unsafe_allow_html=True
-                )
+            
 
 
                 # Job title
